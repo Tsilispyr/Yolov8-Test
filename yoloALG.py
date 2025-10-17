@@ -96,7 +96,7 @@ def main():
         frame = box_annotator.annotate(
             scene=frame, 
             detections=detections, 
-            # labels=labels    //older version
+            # labels=labels   //older version
         )
 
         zone.trigger(detections=detections)
@@ -109,4 +109,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
